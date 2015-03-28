@@ -1,0 +1,11 @@
+{
+  "name": "Ionic_Alpha_Push_Server",
+  "version": "1.0.0",
+  "description": "Push server using Ionic Push service (Alpha)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Rondeau",
+  "license": "MIT"
+}
