@@ -1,7 +1,7 @@
 # Ionic Push REST API for iOS
 
 [![NPM version](http://img.shields.io/npm/v/ionic-push-server.svg)](https://www.npmjs.com/package/ionic-push-server)
-[![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/benrondeau/Ionic-Push-Notification-NodeJS-Server)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/benrondeau/Ionic-Push-Notification-NodeJS-Server?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 NodeJS server using [Ionic Push REST API](http://docs.ionic.io/push/send/) to send push notifications on iOS. Based on ionic@1.4.0-alpha.6 release.
 
