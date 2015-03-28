@@ -6,21 +6,36 @@ NodeJS server using [Ionic Push REST API](http://docs.ionic.io/push/send/) to se
 - [NodeJS](https://nodejs.org/)
 - Ionic App that is [setup for push notifications](http://docs.ionic.io/push/quick-start/)
 
-# Getting Started
-1. Download this respository and open in an IDE or text editor.
-
-Example node server.js file:
+# Example Usage:
 
 ```javascript
-var ionicPushServer = require('ionic-push-server');
+var ionicPushServer = require('./ionic-push-server');
 
-var options = {
-    IonicApplicationID = "",
-    IonicApplicationAPIsecret = "",
-    deviceTokens = [""]
-}
-var notification = {};
+var credentials = {
+    IonicApplicationID : "myID",
+    IonicApplicationAPIsecret : "myAPIsecret"
+};
 
-ionicPushServer(options, notification);
+var notification = {
+  "tokens":["myDeviceToken"],
+  "notification":{
+    "alert":"Hi from Ionic Push Service!",
+    "ios":{
+      "badge":1,
+      "sound":"chime.aiff",
+      "expiry": 1423238641,
+      "priority": 10,
+      "contentAvailable": true,
+      "payload":{
+        "key1":"value",
+        "key2":"value"
+      }
+    }
+  } 
+};
+
+ionicPushServer(credentials, notification);
 
 ```
+
+Problems? Please file an [issue](https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server/issues). Thanks!

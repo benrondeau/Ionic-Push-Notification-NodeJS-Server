@@ -1,11 +1,27 @@
 {
-  "name": "Ionic_Alpha_Push_Server",
+  "name": "Ionic-Push-Server",
   "version": "1.0.0",
-  "description": "Push server using Ionic Push service (Alpha)",
+  "description": "Ionic Push server using REST API for iOS. Based on ionic@1.4.0-alpha.6 release.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Ben Rondeau",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server"
+  },
+  "keywords": [
+    "Ionic",
+    "push",
+    "REST",
+    "API",
+    "iOS"
+  ],
+  "author": "Ben Rondeau, @_benrondeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server/issues"
+  },
+  "homepage": "https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server"
 }
