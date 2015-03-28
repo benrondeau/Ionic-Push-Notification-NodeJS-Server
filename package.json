@@ -1,7 +1,7 @@
 {
-  "name": "Ionic-Push-Server",
+  "name": "ionic-push-server",
   "version": "1.0.0",
-  "description": "Ionic Push server using REST API for iOS. Based on ionic@1.4.0-alpha.6 release.",
+  "description": "Ionic Push server using REST API for iOS",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

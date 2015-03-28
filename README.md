@@ -1,6 +1,6 @@
 # Ionic Push REST API for iOS
 
-NodeJS server using [Ionic Push REST API](http://docs.ionic.io/push/send/) to send push notifications on iOS.
+NodeJS server using [Ionic Push REST API](http://docs.ionic.io/push/send/) to send push notifications on iOS. Based on ionic@1.4.0-alpha.6 release.
 
 # Requirements
 - [NodeJS](https://nodejs.org/)
@@ -9,7 +9,7 @@ NodeJS server using [Ionic Push REST API](http://docs.ionic.io/push/send/) to se
 # Example Usage:
 
 ```javascript
-var ionicPushServer = require('./ionic-push-server');
+var ionicPushServer = require('ionic-push-server');
 
 var credentials = {
     IonicApplicationID : "myID",
