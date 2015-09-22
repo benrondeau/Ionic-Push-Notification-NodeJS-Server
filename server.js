@@ -48,4 +48,6 @@ module.exports = function (credentials, notification){
   req.write(JSON.stringify(notification));
   req.end();
 
+  return def.promise;
+
 };
