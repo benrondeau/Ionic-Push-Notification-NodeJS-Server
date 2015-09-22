@@ -4,24 +4,27 @@
   "description": "Ionic Push server using REST API for iOS",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server"
   },
   "keywords": [
-    "Ionic",
-    "push",
-    "REST",
     "API",
-    "iOS"
+    "Ionic",
+    "REST",
+    "iOS",
+    "push"
   ],
   "author": "Ben Rondeau, @_benrondeau",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server/issues"
   },
-  "homepage": "https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server"
+  "homepage": "https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
 }
