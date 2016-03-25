@@ -1,5 +1,5 @@
 // Dependencies
-const https = require('https');
+var https = require('https');
 var querystring = require('querystring');
 
 module.exports = function (credentials, notification){
@@ -9,13 +9,13 @@ module.exports = function (credentials, notification){
 
   // Object that defines http.request(). See docs @ https://nodejs.org/api/http.html#http_http_request_options_callback, Node.js v0.12.1
   var options = {
-    hostname: 'api.ionic.io',
-	  path: '/push/notifications',
-    method: 'POST',
-    headers: {
-	"Content-Type" : "application/json",
-  "Authorization": "Bearer + credentials.IonicApplicationAPItoken",
-      }
+  	hostname: 'api.ionic.io',
+	path: '/push/notifications',
+    	method: 'POST',
+    	headers: {
+		"Content-Type" : "application/json",
+  		"Authorization": "Bearer + credentials.IonicApplicationAPItoken",
+      	}
   };
 
   // HTTP POST request. See docs @ https://nodejs.org/api/http.html#http_http_request_options_callback, Node.js v0.12.1
