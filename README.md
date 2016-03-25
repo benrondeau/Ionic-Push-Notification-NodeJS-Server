@@ -16,7 +16,7 @@ var ionicPushServer = require('ionic-push-server');
 
 var credentials = {
     IonicApplicationID : "myID",
-    IonicApplicationAPIsecret : "myAPIsecret"
+    IonicApplicationAPItoken : "myIonicAPItoken"
 };
 
 var notification = {
