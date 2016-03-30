@@ -5,6 +5,8 @@
 
 Node.js server using [Ionic Push REST API](http://docs.ionic.io/docs/push-overview) to send push notifications on iOS and Android.
 
+See [Ionic's REST API documentation](http://docs.ionic.io/v2.0.0-beta/docs/push-sending-push#section-basic-api-usage) for more info on creating/sending push notifications.
+
 # Requirements
 - [Node.js](https://nodejs.org/)
 - Ionic App that is [setup for push notifications](http://docs.ionic.io/docs/push-quick-start)
