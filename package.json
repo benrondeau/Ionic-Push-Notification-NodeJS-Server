@@ -1,6 +1,6 @@
 {
   "name": "ionic-push-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Ionic Push server using REST API for iOS",
   "main": "server.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "Ionic",
     "REST",
     "iOS",
-    "push"
+    "push",
+    "Android"
   ],
   "author": "Ben Rondeau, @_benrondeau",
   "license": "ISC",
@@ -25,6 +26,6 @@
   },
   "homepage": "https://github.com/benrondeau/Ionic-Push-Notification-NodeJS-Server",
   "dependencies": {
-    "q": "^1.4.1"
+    "querystring": "latest"
   }
 }
