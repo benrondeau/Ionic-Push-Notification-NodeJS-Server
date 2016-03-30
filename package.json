@@ -1,7 +1,7 @@
 {
   "name": "ionic-push-server",
-  "version": "1.1.0",
-  "description": "Ionic Push server using REST API for iOS",
+  "version": "1.1.1",
+  "description": "Ionic Push server using REST API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
