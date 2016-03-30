@@ -20,21 +20,19 @@ var credentials = {
 };
 
 var notification = {
-  "tokens":["myDeviceToken"],
-  "notification":{
-    "alert":"Hi from Ionic Push Service!",
-    "ios":{
-      "badge":1,
-      "sound":"chime.aiff",
-      "expiry": 1423238641,
-      "priority": 10,
-      "contentAvailable": true,
-      "payload":{
-        "key1":"value",
-        "key2":"value"
-      }
-    }
-  } 
+  "tokens": ["your", "device", "tokens"],
+  "profile": "my-security-profile",
+  "notification": {
+    "title": "Hi",
+    "message": "Hello world!",
+    "android": {
+      "title": "Hey",
+      "message": "Hello Android!"
+    },
+    "ios": {
+      "title": "Howdy",
+      "message": "Hello iOS!"
+    } 
 };
 
 ionicPushServer(credentials, notification);
